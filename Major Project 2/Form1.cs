@@ -19,12 +19,10 @@ namespace Major_Project_2
     {
         public MainForm()
         {
-            //Hudson coded, Donnie reviewed
             InitializeComponent();
             startNumberTextBox.MaxLength = 9;
             endNumberTextBox.MaxLength = 9;
         }
-        //Hudson coded, Donnie reviewed
         int startNumber;
         int endNumber;
         private void parseData()
@@ -33,17 +31,14 @@ namespace Major_Project_2
             int.TryParse(endNumberTextBox.Text, out endNumber);
         }
 
-        //Hudson coded, Donnie reviewed
         private void clear()
         {
             resultsListBox.Items.Clear();
         }
-        //Hudson coded, Donnie reviewed
         private void focus()
         {
             startNumberTextBox.Focus();
         }
-        //Donnie coded, Hudson reviewed
         private void AbsoluteValueBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -52,7 +47,6 @@ namespace Major_Project_2
             resultsListBox.Items.Add("The absolute value of " + endNumber + ": " + Math.Abs(endNumber));
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void CountBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -61,7 +55,6 @@ namespace Major_Project_2
             resultsListBox.Items.Add("Count of values between " + startNumber + " and " + endNumber + ": " + difference);
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void PerimiterBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -83,7 +76,6 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void PythagoreanTheoremBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -108,7 +100,6 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void FactorialBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -135,7 +126,6 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void MultiplicationTableBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -157,7 +147,6 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void FibonacciBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -186,14 +175,12 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void ExitBtn_Click(object sender, EventArgs e)
         {
             DialogResult dialog = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (dialog == DialogResult.Yes)
                 this.Close();
         }
-        //Donnie coded, Hudson reviewed
         private void ExponentationBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -205,7 +192,6 @@ namespace Major_Project_2
 
             focus();
         }
-        //Donnie coded, Hudson reviewed
         private void RangeBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -219,7 +205,6 @@ namespace Major_Project_2
 
             focus();
         }
-        //Donnie coded, Hudson reviewed
         private void SumOfSquaresBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -255,7 +240,6 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Donnie coded, Hudson reviewed
         private void DescendingSortBtn_Click(object sender, EventArgs e)
         {
             clear();
@@ -276,27 +260,22 @@ namespace Major_Project_2
             }
             focus();
         }
-        //Hudson coded, Donnie reviewed
         private void StartNumberTextBox_Click(object sender, EventArgs e)
         {
             startNumberTextBox.SelectAll();
         }
-        //Hudson coded, Donnie reviewed
         private void EndNumberTextBox_Click(object sender, EventArgs e)
         {
             endNumberTextBox.SelectAll();
         }
-        //Hudson coded, Donnie reviewed
         private void StartNumberTextBox_TextChanged(object sender, EventArgs e)
         {
             clear();
         }
-        //Hudson coded, Donnie reviewed
         private void EndNumberTextBox_TextChanged(object sender, EventArgs e)
         {
             clear();
         }
-        //Hudson coded, Donnie reviewed
         private void StartNumberTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '-')
@@ -305,7 +284,6 @@ namespace Major_Project_2
                 return;
             }
         }
-        //Hudson coded, Donnie reviewed
         private void EndNumberTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '-')
@@ -314,12 +292,10 @@ namespace Major_Project_2
                 return;
             }
         }
-        //Hudson coded, Donnie reviewed
         private void StartNumberTextBox_Enter(object sender, EventArgs e)
         {
             startNumberTextBox.SelectAll();
         }
-        //Hudson coded, Donnie reviewed
         private void EndNumberTextBox_Enter(object sender, EventArgs e)
         {
             endNumberTextBox.SelectAll();
