@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Major Project 2.exe" version="1.0.0.0" publicKeyToken="f8beb51543b8897e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Major Project 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Major Project 2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Major Project 2.exe" size="21456">
+      <assemblyIdentity name="Major Project 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DEa7kZw6fuV4UHmHMLf1XSu15j49hegYiEAr5Y7y+Ro=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Major Project 2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HPIERCE-PC\HPIERCE" issuerKeyHash="069496be046c363c017897ec6dbf4c87d67aa8e7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lxPcKhIp6ym0ILL9AoooGsw446S2FF5H4ByMqDBans0=</DigestValue></Reference></SignedInfo><SignatureValue>N4CkyA2kPcwG4JxqkceUNd+4clzPJoSUP4IRFFWA8axM2y/Hrua8ZaCWB+JGx8RpiKKKDsGSlGyaPBh+BoB2eHwoukcHVxRszPJyn7I4OIROIKNjEvqoIomnc693QxcbaCWa7Y2mrO98wQEXytbrU++5XLcxOTGaUyrieUzMp/k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uVjxomzTNiQ4hRYJ8/dWabJi/Q0gV2sLyi97NeQcNi5NseaUcJqC0NQWstfsL97eM97YCwr8u+KQdrgWCtz0L42+hJ2Eln4FrMoHOddSk7VX8CVF9fVlLT7wKW468dVpJv/w6vsnUn1tKjMVhOr+yNSpkNH5DRag0DTP+53oZuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cd9e5a30a88c1ce0475e14b6a4e338cc1a288a02fdb220b429eb29122adc1397" Description="" Url=""><as:assemblyIdentity name="Major Project 2.exe" version="1.0.0.0" publicKeyToken="f8beb51543b8897e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HPIERCE-PC\HPIERCE</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5Ph6tY66RKJqjfMbv/dQGcAVK06PNSP1//ziPLnqccg=</DigestValue></Reference></SignedInfo><SignatureValue>YIcYUfMZEtEvj7vhynpeBcHLUSpg05eSccC/tsnSfelNoTb1RWTg2GDTodJx8NU2+LTa6unAtLhKuy5AVJYMRwJYT5jQt9OwkznuJ/gCJrkxFj41r5LobNL72U6hnFvxn36bJP2dT71X/mzxN4mDGqbxswIMnag5j057wjUSDfY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uVjxomzTNiQ4hRYJ8/dWabJi/Q0gV2sLyi97NeQcNi5NseaUcJqC0NQWstfsL97eM97YCwr8u+KQdrgWCtz0L42+hJ2Eln4FrMoHOddSk7VX8CVF9fVlLT7wKW468dVpJv/w6vsnUn1tKjMVhOr+yNSpkNH5DRag0DTP+53oZuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQPg3/gkFcAaRLy0AennAECzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQASABQAEkARQBSAEMARQAtAFAAQwBcAEgAUABJAEUAUgBDAEUwHhcNMTkxMTE0MDIyNTA2WhcNMjAxMTEzMDgyNTA2WjAvMS0wKwYDVQQDHiQASABQAEkARQBSAEMARQAtAFAAQwBcAEgAUABJAEUAUgBDAEUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALlY8aJs0zYkOIUWCfP3VmmyYv0NIFdrC8ovezXkHDYuTbHmlHCagtDUFrLX7C/e3jPe2AsK/LvikHa4Fgrc9C+NvoSdhJZ+BazKBznXUpO1V/AlRfX1ZS0+8CluOvHVaSb/8Or7J1J9bSozFYTq/sjUqZDR+Q0WoNA0z/ud6GbpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAr1pgvoWd3VFKs+9eSpGWgFQvl51w80a/x6jKG1AMbZZLy8Y4gzCjyW1RQKsSuvFMwa1fGYck99FKqGU0bUCnFujMbdjDNDUy2XPa8k8EDRVG+plDbOSgfN7V+T6zYKKpqN6xHfMCiAdzPR+KFHoQVoj+Tto7962+FBSTFJSgvjc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

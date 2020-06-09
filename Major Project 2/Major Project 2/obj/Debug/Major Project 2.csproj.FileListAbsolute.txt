@@ -1,0 +1,10 @@
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\bin\Debug\Major Project 2.exe.config
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\bin\Debug\Major Project 2.exe
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\bin\Debug\Major Project 2.pdb
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major Project 2.csprojAssemblyReference.cache
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major_Project_2.MainForm.resources
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major_Project_2.Properties.Resources.resources
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major Project 2.csproj.GenerateResource.cache
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major Project 2.csproj.CoreCompileInputs.cache
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major Project 2.exe
+C:\Users\HPIERCE\OneDrive - North Carolina State University\NCSU Classes\Fall 2019\BUS 442\Major Project 2\Major Project 2\Major Project 2\obj\Debug\Major Project 2.pdb
